@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Cosmo Junior</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>
+          Olá, meu nome é Cosmo Lopes Sobrinho Junior, conhecido como Cosmo
+          Junior. Sou um entusiasta da tecnologia com foco em desenvolvimento e
+          análise de sistemas, também atuo como técnico em manutenção de
+          computadores e equipamentos eletrônicos.
+        </p>
+        <p>
+          Meus hobbies incluem viajar para conhecer novos restaurantes e provar
+          comidas, automação industrial e residencial. Gosto de resolver
+          problemas complexos e criar soluções eficientes, quanto mais difícil
+          mais eu me dedico para resolver.
+        </p>
+      </section>
+
+      <section id="formacao">
+        <h2>Formação</h2>
+        <ul>
+          <li>
+            <strong>Graduação:</strong> Engenharia de Software - UNINTER (Início
+            em 2025)
+          </li>
+          <li>
+            <strong>Cursos:</strong> Curso Técnico em Informática e Manutenção
+            em Computadores (Projeto E-jovem - 2013) e Curso Gestores de Alta
+            Performance (Marcos Freitas - 2020).
+          </li>
+          <li>
+            <strong>Idiomas:</strong> Inglês Técnico (Leitura e escrita
+            intermediária - Focado em programação e documentação).
+          </li>
+        </ul>
+      </section>
+
+      <section id="portfolio">
+        <h2>Portfólio e Experiência</h2>
+        <p>
+          Confira algumas das minhas principais criações desenvolvidas para
+          controle industrial e integração de sistemas:
+        </p>
+
+        <div class="projetos-grid">
+          <!-- Projeto 1 -->
+          <div class="projeto-item">
+            <h3>Acompanhamento de Metas</h3>
+            <img
+              src="img/acompnhamento_meta_producao.png"
+              alt="Painel de acompanhamento de meta de produção"
+            />
+            <p>
+              Dashboard para monitoramento em tempo real de eficiência,
+              produtividade e defeitos.
+            </p>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="projeto-item">
+            <h3>App de Baixa de Produção</h3>
+            <img
+              src="img/aplicativo_android_para_baixa_de_producao.jpg"
+              alt="Aplicativo Android para baixa de produção"
+            />
+            <p>
+              Solução mobile Android para registro e controle integrado no chão
+              de fábrica.
+            </p>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div class="projeto-item">
+            <h3>Busca via API</h3>
+            <img
+              src="img/busca_imagem_via_api.png"
+              alt="Sistema de busca de imagens via API"
+            />
+            <p>
+              Ferramenta web para consulta rápida de produtos e integrações
+              visuais via API.
+            </p>
+          </div>
+
+          <!-- Projeto 4 -->
+          <div class="projeto-item">
+            <h3>Mapa de Produção</h3>
+            <img
+              src="img/mapa_producao.png"
+              alt="Interface de mapa de produção"
+            />
+            <p>
+              Sistema detalhado para controle de custos, pedidos e gerenciamento
+              de matérias-primas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+        <form id="formContato">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
